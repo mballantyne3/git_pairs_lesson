@@ -11,6 +11,7 @@ class BankAccount
 
   def deposit(amount)
     @balance = @balance + amount
+    # could also input @balance += amount
   end
 
   def withdraw(amount)
