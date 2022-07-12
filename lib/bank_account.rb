@@ -14,7 +14,9 @@ class BankAccount
   end
 
   def withdraw(amount)
-    # trying to create merge conflict
+
+    @balance = @balance - amount 
+
   end
 
   def verify?(id, pin)
